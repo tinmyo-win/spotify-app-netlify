@@ -80,7 +80,7 @@ router.get("/callback", (req, res) => {
       });
       res.redirect(`${FRONTEND_URI}/?${queryParams}`);
     } else {
-      res.redirect(`  ?${querystring.stringify({ error: "invalid_token" })}`);
+      res.redirect(`${REDIRECT_URI}/?${querystring.stringify({ error: "invalid_token" })}`);
     }
   });
 });
