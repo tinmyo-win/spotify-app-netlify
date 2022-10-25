@@ -1,7 +1,10 @@
 ## Deploy Spotify app to netlify
 
-1. Update the server with serverless-lambda
-2. Deploy the app to the netlify
+1. Create the app
+
+2. Update the server with serverless-http
+
+3. Deploy the app to the netlify
 
 ## visit to the deploy app
 
